@@ -3,10 +3,10 @@
 fun main() {
 
 
-    var nome_do_carro = "Fusca"
+    var nome: String? = "Richard"
 
-    println(nome_do_carro)
-  val nome = readLine()
+    println(nome)
+    nome = readLine()
 
-    println("O nome do carro é: $nome")
+    println("Olá: $nome")
 }
